@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TechBazaar" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="colorPrimary">@color/primaryc</item>
+    <item name="colorOnPrimary">@color/white</item>
+    <!--        Fő háttérszín-->
+    <item name="android:colorBackground">@color/white</item>
+    <!--        Tippek színe-->
+    <item name="android:textColorHint">@color/darkhint</item>
+    </style>
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:backgroundTint">#F3EDF7</item>
+    </style>
+</resources>

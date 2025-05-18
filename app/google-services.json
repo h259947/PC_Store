@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "75090999561",
+    "project_id": "techbazaar-de543",
+    "storage_bucket": "techbazaar-de543.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75090999561:android:2677cf2d82d0c5faeebbd8",
+        "android_client_info": {
+          "package_name": "com.example.techbazaar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBmH4r55gfAgU9bhXd1rGA0ySgyffiVwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

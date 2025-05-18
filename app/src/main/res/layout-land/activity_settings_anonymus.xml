@@ -1,0 +1,142 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings_activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ToolbarTheme"
+        >
+        <ImageButton
+            android:id="@+id/click_to_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@drawable/home"
+            android:onClick="clickHome"
+            android:contentDescription="@string/index"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/category_Recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:overScrollMode="never"
+        android:clipToPadding="false"
+        android:scrollbars="none"/>
+    <TextView
+        android:id="@+id/regist_anonymus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A fiókbeállítás regisztrációhoz kötött!"
+        android:textSize="24sp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/new_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        android:ems="14"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:textColor="#2C5078"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        android:ems="14"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="#2C5078"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/password_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        android:ems="14"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="#2C5078"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/password_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        android:ems="14"
+        android:hint="@string/password_again"
+        android:inputType="textPassword"
+        android:textColor="#2C5078"
+        tools:layout_editor_absoluteX="0dp" />
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/accept_afsz"
+        android:textColor="@color/primaryc"
+        android:drawable="@drawable/registration_check_active"
+        />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accept_any"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/primaryc"
+        android:drawable="@drawable/registration_check_active"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/new_reg"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#2C5078"
+            android:onClick="register"
+            android:text="@string/regist" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

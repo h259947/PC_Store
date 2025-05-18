@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TechBazaar" parent="Theme.Material3.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/primaryc</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+</resources>

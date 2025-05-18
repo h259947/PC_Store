@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/primaryc"/>
+            <stroke android:width="2dp" android:color="@color/primaryc"/>
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/registration_check_inactive" android:gravity="center"/>
+</layer-list>

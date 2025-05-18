@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Normal colors-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryc">#2C5078</color>
+
+<!--    Night colors-->
+    <color name="secondaryc">#e54f00</color>
+    <color name="red">#FF0000</color>
+    <color name="darkhint">#BDBDBD</color>
+</resources>

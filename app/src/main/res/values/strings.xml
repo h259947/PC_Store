@@ -1,0 +1,851 @@
+<resources>
+    <string name="app_name">TechBazaar</string>
+    <string name="username">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="regist">Regisztráció</string>
+    <string name="logo">tb_logo</string>
+    <string name="email">E-mail cím</string>
+    <string name="password_again">Jelszó újra</string>
+    <string name="back">Mégse</string>
+    <string name="fail_sign_in">Sikertelen belépés!</string>
+    <string name="Missing_field">Töltsd ki az összes mezőt!</string>
+    <string name="search">Keresés</string>
+    <string name="cart">Bevásárlókosár</string>
+    <string name="settings">Beállítások</string>
+    <string name="exit">Kijelentkezés</string>
+    <string name="notification">Értesítések</string>
+    <string name="favorite">Kedvencek</string>
+    <string name="remember_password">Jelszó megjegyzése</string>
+    <string name="login_with_guest">Lépj be vendégként</string>
+    <string name="highlighted_home">Kiemelt ajánlataink</string>
+    <string name="back_to_home">Vissza a főoldalra</string>
+    <string name="upload_later">Termékek feltöltése később!</string>
+    <string name="higlighted">Kiemelt ajánlataink</string>
+    <string name="accept_afsz">Elfogadom az Általános Szerződési Feltételeket</string>
+    <string name="accept_any">Elfogadom az Adatvédelmi nyilatkozatot</string>
+    <string name="index">Kezdőlap</string>
+    <string name="forgot_password">Elfelejtetted a jelszavad?</string>
+    <string name="email_req">Add meg az Email címed</string>
+    <string name="email_input_hint">valami@valami.hu</string>
+    <string name="Send_fp_email">Visszaállítás</string>
+    <string name="cancel_fp_email">Mégse</string>
+    <string name="empty_cart">A kosár üres!</string>
+    <string name="order_items">Termékek megrendelése</string>
+    <string name="no_fav">Nincs hozzáadva kedvenc termék!</string>
+    <string name="save_udata">Adatok frissítése</string>
+    <string name="delete_user">Fiók törlése</string>
+
+    <!-- Kategória nevek és képek -->
+    <string-array name="category_items_name">
+        <item>Alaplap</item>
+        <item>Processzor</item>
+        <item>Memória</item>
+        <item>Videokártya</item>
+        <item>Monitor</item>
+        <item>SSD/HDD</item>
+        <item>Tápegység</item>
+        <item>Számítógépház</item>
+        <item>Hűtés</item>
+        <item>Nyomtató/szkenner</item>
+        <item>Billentyűzet/egér</item>
+        <item>Hangszóró</item>
+        <item>Kábel</item>
+    </string-array>
+
+    <array name="category_images">
+        <item>@drawable/category_motherboard</item>
+        <item>@drawable/category_cpu</item>
+        <item>@drawable/category_memory</item>
+        <item>@drawable/category_vga</item>
+        <item>@drawable/category_monitor</item>
+        <item>@drawable/category_ssd</item>
+        <item>@drawable/category_powers</item>
+        <item>@drawable/category_cases</item>
+        <item>@drawable/category_cooler</item>
+        <item>@drawable/category_printer</item>
+        <item>@drawable/category_keyboardmouse</item>
+        <item>@drawable/category_speaker</item>
+        <item>@drawable/category_cabel</item>
+    </array>
+
+    <!-- Kiemelt ajánlat nevek, leírás, ár, értékelés, képek -->
+    <string-array name="highlited_items_names">
+        <item>Core i5–10400F</item>
+        <item>Core i7–12700K</item>
+        <item>Asus ROG STRIX B550-F GAMING</item>
+        <item>ASRock B450 Pro4</item>
+        <item>SSD 2.5" Samsung 870 Evo 500GB</item>
+        <item>Kingston SSDNow KC400 1 TB</item>
+        <item>CORSAIR iCUE 5000T RGB TG fekete</item>
+        <item>Cooler Master MasterCase H500M</item>
+    </string-array>
+
+    <string-array name="highlited_items_description">
+        <item>Órajele: 2,9 GHz \nFoglalat: Intel 1200\nMagok száma: 6\nMax. teljesítmény: 4,3 GHz…</item>
+        <item>Órajele: 2,7 GHz \nFoglalat: Intel 1700 \nMagok száma: 12\nMax. teljesítmény: 5 GHz…</item>
+        <item>CPU Foglalat: AM4 \nChipset: AMD B550 \nMemória típusa: DDR4 \nMax. memória mérete: 128 GB…</item>
+        <item>\nCPU Foglalat: AM4 \nChipset: AMD B450 \nMemória típusa: DDR4 \nMax. memória mérete: 64 GB…</item>
+        <item>Kialakítás: 2,5 inch \nKapacitás: 500 GB \nMaximális olvasási sebesség: 560 MB/s \nMaximális írási sebesség: 530 MB/s…</item>
+        <item>Kialakítás: 2,5 inch \nKapacitás: 1000 GB \nMaximális olvasási sebesség: 550 MB/s \nMaximális írási sebesség: 530 MB/s…</item>
+        <item>Típus: MidiTower \nSzélesség: 251 mm \nMagasság: 559 mm \nMélység: 528 mm Tömeg 17080 g…</item>
+        <item>Típus: MidiTower \nSzélesség: 248 mm \nMagasság: 546 mm \nMélység: 544 mm Tömeg 14200 g…</item>
+    </string-array>
+
+    <array name="highlited_items_images">
+        <item>@drawable/highlighted_i5_10400f</item>
+        <item>@drawable/highlighted_i7_12700k</item>
+        <item>@drawable/highlighted_asus_b550f</item>
+        <item>@drawable/highlighted_asrock_b450_pro4</item>
+        <item>@drawable/highlighted_samsung_870_evo</item>
+        <item>@drawable/highlighted_kingstone_kc_400</item>
+        <item>@drawable/highlighted_corsair_case</item>
+        <item>@drawable/highlighted_cooler_master_case</item>
+    </array>
+
+    <array name="highlited_items_prices">
+        <item>45 224 Ft</item>
+        <item>122 443 Ft</item>
+        <item>39 333 Ft</item>
+        <item>29 122 Ft</item>
+        <item>18 566 Ft</item>
+        <item>27 688 Ft</item>
+        <item>88 655 Ft</item>
+        <item>64 442 Ft</item>
+    </array>
+
+    <array name="highlited_items_rates">
+        <item>3</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3.5</item>
+        <item>3.5</item>
+    </array>
+
+
+    <!-- Minden kategória ajánlat nevek, leírás, ár, értékelés, képek -->
+    <string-array name="items_in_category_name">
+        <item>alaplap_Asus ROG STRIX B550-F GAMING</item>
+        <item>alaplap_ASRock B450 Pro4</item>
+        <item>alaplap_Gigabyte AORUS Z390</item>
+        <item>alaplap_Asrock X570 Steel Legend</item>
+        <item>alaplap_MSI MAG B550 TOMAHAWK WIFI</item>
+        <item>alaplap_Asus TUF B450M-PLUS</item>
+        <item>alaplap_ASRock B450M PRO4</item>
+        <item>alaplap_ZOTAC ASRock H310CM-DVS</item>
+        <item>alaplap_EVGA Z390 FTW</item>
+        <item>alaplap_ASRock A320M-HDV</item>
+
+        <item>processzor_Core i5–10400F</item>
+        <item>processzor_Core i7–12700K</item>
+        <item>processzor_Intel Core i5–11600K</item>
+        <item>processzor_AMD Ryzen 7 5800X</item>
+        <item>processzor_Intel Core i7–10700K</item>
+        <item>processzor_AMD Ryzen 5 3600</item>
+        <item>processzor_AMD Ryzen 3 3300X</item>
+        <item>processzor_Intel Core i9–11900K</item>
+        <item>processzor_AMD Ryzen 7 3700X</item>
+
+        <item>memória_Corsair Vengeance LPX 16GB</item>
+        <item>memória_G.SKILL Ripjaws V 32GB</item>
+        <item>memória_Crucial Ballistix 8GB</item>
+        <item>memória_Kingston HyperX Fury 16GB</item>
+        <item>memória_G.SKILL Trident Z RGB 16GB</item>
+        <item>memória_Corsair Vengeance RGB 32GB</item>
+        <item>memória_Kingston HyperX Predator 16GB</item>
+        <item>memória_Corsair Vengeance LPX 8GB</item>
+        <item>memória_G.SKILL Trident Z 8GB</item>
+        <item>memória_Crucial Ballistix Sport LT 16GB</item>
+
+        <item>videokártya_NVIDIA GeForce RTX 3080</item>
+        <item>videokártya_AMD Radeon RX 6800 XT</item>
+        <item>videokártya_NVIDIA GeForce GTX 1660 Ti</item>
+        <item>videokártya_AMD Radeon RX 5700</item>
+        <item>videokártya_NVIDIA GeForce RTX 3090</item>
+        <item>videokártya_AMD Radeon RX 6900 XT</item>
+        <item>videokártya_NVIDIA GeForce GTX 1050 Ti</item>
+        <item>videokártya_AMD Radeon RX 580</item>
+        <item>videokártya_NVIDIA GeForce GTX 1080 Ti</item>
+        <item>videokártya_AMD Radeon RX Vega 56</item>
+
+        <item>monitor_Dell UltraSharp U2720Q</item>
+        <item>monitor_Samsung Odyssey G7</item>
+        <item>monitor_LG 27GL850-B</item>
+        <item>monitor_ASUS ROG Swift PG259QN</item>
+        <item>monitor_Acer Predator X34</item>
+        <item>monitor_Samsung 27" Curved 4K</item>
+        <item>monitor_LG 32UN880-B</item>
+        <item>monitor_ASUS TUF VG27AQ</item>
+        <item>monitor_Dell P2419H</item>
+        <item>monitor_Acer Nitro XV272U</item>
+
+        <item>ssd/hdd_SSD 2.5" Samsung 870 Evo 500GB</item>
+        <item>ssd/hdd_Kingston SSDNow KC400 1 TB</item>
+        <item>ssd/hdd_Seagate Barracuda 2TB</item>
+        <item>ssd/hdd_Crucial P5 1TB</item>
+        <item>ssd/hdd_Kingston A2000 500GB</item>
+        <item>ssd/hdd_Samsung 980 PRO 500GB</item>
+        <item>ssd/hdd_WD Blue 1TB</item>
+        <item>ssd/hdd_PNY XLR8 CS3030 1TB</item>
+        <item>ssd/hdd_SanDisk Ultra 3D 1TB</item>
+        <item>ssd/hdd_Toshiba P300 2TB</item>
+
+        <item>tápegység_Corsair RM750x</item>
+        <item>tápegység_SEA Sonic FOCUS Plus 750W</item>
+        <item>tápegység_EVGA SuperNOVA 650 G5</item>
+        <item>tápegység_FSP Hydro G 850W</item>
+        <item>tápegység_Cooler Master MWE Gold 650W</item>
+        <item>tápegység_Seasonic S12III 500W</item>
+        <item>tápegység_Rosewill Capstone 750W</item>
+        <item>tápegység_Antec Earthwatts Gold 650W</item>
+        <item>tápegység_Corsair HX1000i</item>
+        <item>tápegység_Leviathan 700W</item>
+
+        <item>számítógépház_CORSAIR iCUE 5000T RGB TG fekete</item>
+        <item>számítógépház_Cooler Master MasterCase H500M</item>
+        <item>számítógépház_Corsair iCUE 220T</item>
+        <item>számítógépház_Phanteks P400A</item>
+        <item>számítógépház_Cooler Master MasterBox Q300L</item>
+        <item>számítógépház_Antec DF500</item>
+        <item>számítógépház_Aerocool Cylon</item>
+        <item>számítógépház_Corsair Carbide 275R</item>
+        <item>számítógépház_Lian Li PC-011 Dynamic</item>
+        <item>számítógépház_Thermaltake Core V71</item>
+
+        <item>hűtés_Noctua NH-D15</item>
+        <item>hűtés_Corsair iCUE H150i Elite Capellix</item>
+        <item>hűtés_Liquid Freezer II 360</item>
+        <item>hűtés_MSI MAG CoreLiquid 240R</item>
+        <item>hűtés_Air Cooler Hyper 212 EVO</item>
+        <item>hűtés_Cooler Master Hyper 212</item>
+        <item>hűtés_Corsair H100i PRO</item>
+        <item>hűtés_Noctua NH-U12A</item>
+        <item>hűtés_Arctic Liquid Freezer II 280</item>
+        <item>hűtés_Zalman CNPS10X Performa</item>
+
+        <item>nyomtató/szkenner_Epson EcoTank L3150</item>
+        <item>nyomtató/szkenner_Canon PIXMA TS3450</item>
+        <item>nyomtató/szkenner_HP ScanJet Pro 2500</item>
+        <item>nyomtató/szkenner_HP DeskJet 2720</item>
+        <item>nyomtató/szkenner_Canon CanoScan LiDE 400</item>
+        <item>nyomtató/szkenner_Brother HL-L2350DW</item>
+        <item>nyomtató/szkenner_Epson EcoTank ET-2720</item>
+        <item>nyomtató/szkenner_Canon PIXMA G3400</item>
+        <item>nyomtató/szkenner_Epson Perfection V39</item>
+        <item>nyomtató/szkenner_Brother MFC-J995DW</item>
+
+        <item>billentyűzet/egér_Razer Huntsman Elite</item>
+        <item>billentyűzet/egér_Logitech MX Master 3</item>
+        <item>billentyűzet/egér_Corsair K95 RGB Platinum</item>
+        <item>billentyűzet/egér_Razer DeathAdder Elite</item>
+        <item>billentyűzet/egér_steelseries Apex Pro</item>
+        <item>billentyűzet/egér_Logitech G502 Hero</item>
+        <item>billentyűzet/egér_HyperX Alloy FPS Pro</item>
+        <item>billentyűzet/egér_SteelSeries Rival 600</item>
+        <item>billentyűzet/egér_ANTEC K3</item>
+        <item>billentyűzet/egér_SteelSeries Sensei Ten</item>
+
+        <item>hangszóró_Bose SoundLink Revolve+</item>
+        <item>hangszóró_Logitech Z313</item>
+        <item>hangszóró_JBL Flip 5</item>
+        <item>hangszóró_Boat Stone 1000</item>
+        <item>hangszóró_Anker Soundcore 2</item>
+        <item>hangszóró_Sony SRS-XB33</item>
+        <item>hangszóró_Phillips BT6900</item>
+        <item>hangszóró_Klipsch R-51M</item>
+        <item>hangszóró_Marshall Stanmore II</item>
+        <item>hangszóró_KEF LS50 Wireless</item>
+
+        <item>kábel_AmazonBasics HDMI 2.0</item>
+        <item>kábel_UGREEN USB-C</item>
+        <item>kábel_ANKER PowerLine Lightning</item>
+        <item>kábel_StarTech VGA</item>
+        <item>kábel_AmazonBasics DisplayPort</item>
+        <item>kábel_Anker PowerLine+ USB-C</item>
+        <item>kábel_Corsair Type-C</item>
+        <item>kábel_Belkin 3.5mm Aux</item>
+        <item>kábel_AmazonBasics Ethernet</item>
+        <item>kábel_Logitech Micro USB</item>
+    </string-array>
+
+    <string-array name="items_in_category_description">
+        <item>Chipset: AMD B550 \nFoglalat: AM4 \nMax. memória: 128GB \nWIFI támogatás: Igen…</item> <!-- Asus ROG STRIX B550-F GAMING -->
+        <item>Chipset: AMD B450 \nFoglalat: AM4 \nMax. memória: 64GB \nAlaplap típusa: ATX…</item> <!-- ASRock B450 Pro4 -->
+        <item>Chipset: Intel Z390 \nFoglalat: LGA 1151 \nMax. memória: 64GB \nRGB világítás…</item> <!-- Gigabyte AORUS Z390 -->
+        <item>Chipset: AMD X570 \nFoglalat: AM4 \nMax. memória: 64GB \nPCIe 4.0 támogatás…</item> <!-- Asrock X570 Steel Legend -->
+        <item>Chipset: AMD B550 \nFoglalat: AM4 \nMax. memória: 64GB \nWIFI és Bluetooth támogatás…</item> <!-- MSI MAG B550 TOMAHAWK WIFI -->
+        <item>Chipset: AMD B450 \nFoglalat: AM4 \nMax. memória: 64GB \nMini-ITX formátum…</item> <!-- Asus TUF B450M-PLUS -->
+        <item>Chipset: AMD B450 \nFoglalat: AM4 \nMax. memória: 64GB \nAlaplap típusa: mATX…</item> <!-- ASRock B450M PRO4 -->
+        <item>Chipset: Intel H310 \nFoglalat: LGA 1151 \nMax. memória: 32GB \nAlaplap típusa: mATX…</item> <!-- ZOTAC ASRock H310CM-DVS -->
+        <item>Chipset: Intel Z390 \nFoglalat: LGA 1151 \nMax. memória: 64GB \nRGB világítás…</item> <!-- EVGA Z390 FTW -->
+        <item>Chipset: AMD A320 \nFoglalat: AM4 \nMax. memória: 32GB \nAlaplap típusa: mATX…</item> <!-- ASRock A320M-HDV -->
+
+        <item>Órajele: 2,9 GHz \nFoglalat: Intel 1200\nMagok száma: 6\nMax. teljesítmény: 4,3 GHz…</item><!-- i5-10400F -->
+        <item>Órajele: 2,7 GHz \nFoglalat: Intel 1700 \nMagok száma: 12\nMax. teljesítmény: 5 GHz…</item> <!-- i7-12700K -->
+        <item>Órajele: 3,9 GHz \nFoglalat: Intel 1200\nMagok száma: 6\nMax. teljesítmény: 4,9 GHz…</item> <!-- i5-11600K -->
+        <item>Órajele: 3,8 GHz \nFoglalat: AM4\nMagok száma: 8\nMax. teljesítmény: 4,7 GHz…</item> <!-- Ryzen 7 5800X -->
+        <item>Órajele: 3,8 GHz \nFoglalat: Intel 1200\nMagok száma: 8\nMax. teljesítmény: 5,1 GHz…</item> <!-- i7-10700K -->
+        <item>Órajele: 3,6 GHz \nFoglalat: AM4\nMagok száma: 6\nMax. teljesítmény: 4,2 GHz…</item> <!-- Ryzen 5 3600 -->
+        <item>Órajele: 3,8 GHz \nFoglalat: AM4\nMagok száma: 4\nMax. teljesítmény: 4,3 GHz…</item> <!-- Ryzen 3 3300X -->
+        <item>Órajele: 3,5 GHz \nFoglalat: Intel 1200\nMagok száma: 8\nMax. teljesítmény: 5,3 GHz…</item> <!-- i9-11900K -->
+        <item>Órajele: 3,6 GHz \nFoglalat: AM4\nMagok száma: 8\nMax. teljesítmény: 4,4 GHz…</item> <!-- Ryzen 7 3700X -->
+
+        <item>Memória méret: 16 GB \nTípus: DDR4 \nSebesség: 3200 MHz \nFeszültség: 1.35V…</item> <!-- Corsair Vengeance LPX 16GB -->
+        <item>Memória méret: 32 GB \nTípus: DDR4 \nSebesség: 3600 MHz \nFeszültség: 1.35V…</item> <!-- G.SKILL Ripjaws V 32GB -->
+        <item>Memória méret: 8 GB \nTípus: DDR4 \nSebesség: 3000 MHz \nFeszültség: 1.2V…</item> <!-- Crucial Ballistix 8GB -->
+        <item>Memória méret: 16 GB \nTípus: DDR4 \nSebesség: 3200 MHz \nFeszültség: 1.35V…</item> <!-- Kingston HyperX Fury 16GB -->
+        <item>Memória méret: 16 GB \nTípus: DDR4 \nSebesség: 3600 MHz \nRGB világítás: Igen…</item> <!-- G.SKILL Trident Z RGB 16GB -->
+        <item>Memória méret: 32 GB \nTípus: DDR4 \nSebesség: 3200 MHz \nRGB világítás: Igen…</item> <!-- orsair Vengeance RGB 32GB -->
+        <item>Memória méret: 16 GB \nTípus: DDR4 \nSebesség: 4000 MHz \nHűtés: Alumínium hűtőborda…</item> <!-- Kingston HyperX Predator 16GB -->
+        <item>Memória méret: 8 GB \nTípus: DDR4 \nSebesség: 3000 MHz \nFeszültség: 1.2V…</item> <!-- Corsair Vengeance LPX 8GB -->
+        <item>Memória méret: 8 GB \nTípus: DDR4 \nSebesség: 3200 MHz \nRGB világítás: Nem…</item> <!-- G.SKILL Trident Z 8GB -->
+        <item>Memória méret: 16 GB \nTípus: DDR4 \nSebesség: 2666 MHz \nHűtés: Passzív…</item> <!-- Crucial Ballistix Sport LT 16GB -->
+
+        <item>GPU: RTX 3080 \nMemória: 10 GB GDDR6X \nCUDA magok: 8704 \nTápigény: 320W…</item> <!-- NVIDIA GeForce RTX 3080 -->
+        <item>GPU: RX 6800 XT \nMemória: 16 GB GDDR6 \nStream processzorok: 4608 \nTápigény: 300W…</item> <!-- AMD Radeon RX 6800 XT -->
+        <item>GPU: GTX 1660 Ti \nMemória: 6 GB GDDR6 \nCUDA magok: 1536 \nTápigény: 120W…</item> <!-- NVIDIA GeForce GTX 1660 Ti -->
+        <item>GPU: RX 5700 \nMemória: 8 GB GDDR6 \nStream processzorok: 2304 \nTápigény: 180W…</item> <!-- AMD Radeon RX 5700 -->
+        <item>GPU: RTX 3090 \nMemória: 24 GB GDDR6X \nCUDA magok: 10496 \nTápigény: 350W…</item> <!-- NVIDIA GeForce RTX 3090 -->
+        <item>GPU: RX 6900 XT \nMemória: 16 GB GDDR6 \nStream processzorok: 5120 \nTápigény: 300W…</item> <!-- AMD Radeon RX 6900 XT -->
+        <item>GPU: GTX 1050 Ti \nMemória: 4 GB GDDR5 \nCUDA magok: 768 \nTápigény: 75W…</item> <!-- NVIDIA GeForce GTX 1050 Ti -->
+        <item>GPU: RX 580 \nMemória: 8 GB GDDR5 \nStream processzorok: 2304 \nTápigény: 185W…</item> <!-- AMD Radeon RX 580 -->
+        <item>GPU: GTX 1080 Ti \nMemória: 11 GB GDDR5X \nCUDA magok: 3584 \nTápigény: 250W…</item> <!-- NVIDIA GeForce GTX 1080 Ti -->
+        <item>GPU: RX Vega 56 \nMemória: 8 GB HBM2 \nStream processzorok: 3584 \nTápigény: 210W…</item> <!-- AMD Radeon RX Vega 56 -->
+
+        <item>Kijelző méret: 27" \nFelbontás: 3840x2160 (4K UHD) \nPanel típus: IPS \nFrissítési ráta: 60Hz…</item> <!-- Dell UltraSharp U2720Q -->
+        <item>Kijelző méret: 27" \nFelbontás: 2560x1440 (QHD) \nÍvelt panel \nFrissítési ráta: 240Hz…</item> <!-- Samsung Odyssey G7 -->
+        <item>Kijelző méret: 27" \nFelbontás: 2560x1440 \nPanel típus: IPS \nFrissítési ráta: 144Hz…</item> <!-- LG 27GL850-B -->
+        <item>Kijelző méret: 24.5" \nFelbontás: 1920x1080 (FHD) \nPanel típus: IPS \nFrissítési ráta: 360Hz…</item> <!-- ASUS ROG Swift PG259QN -->
+        <item>Kijelző méret: 34" \nFelbontás: 3440x1440 (UWQHD) \nPanel típus: IPS \nFrissítési ráta: 100Hz…</item> <!-- Acer Predator X34 -->
+        <item>Kijelző méret: 27" \nFelbontás: 3840x2160 (4K UHD) \nÍvelt VA panel \nFrissítési ráta: 60Hz…</item> <!-- Samsung 27" Curved 4K -->
+        <item>Kijelző méret: 32" \nFelbontás: 3840x2160 (4K UHD) \nPanel típus: IPS \nErgonómikus állvány…</item> <!-- LG 32UN880-B -->
+        <item>Kijelző méret: 27" \nFelbontás: 2560x1440 (QHD) \nPanel típus: IPS \nFrissítési ráta: 165Hz…</item> <!-- ASUS TUF VG27AQ -->
+        <item>Kijelző méret: 24" \nFelbontás: 1920x1080 (FHD) \nPanel típus: IPS \nFrissítési ráta: 60Hz…</item> <!-- Dell P2419H -->
+        <item>Kijelző méret: 27" \nFelbontás: 2560x1440 (QHD) \nPanel típus: IPS \nFrissítési ráta: 144Hz…</item> <!-- Acer Nitro XV272U -->
+
+        <item>Típus: SSD 2.5" \nKapacitás: 500 GB \nCsatoló: SATA III \nOlvasási sebesség: 560 MB/s…</item> <!-- Samsung 870 Evo 500GB -->
+        <item>Típus: SSD 2.5" \nKapacitás: 1 TB \nCsatoló: SATA III \nÍrási sebesség: 500 MB/s…</item> <!-- Kingston SSDNow KC400 1 TB -->
+        <item>Típus: HDD 3.5" \nKapacitás: 2 TB \nFordulatszám: 7200 RPM \nCache: 256 MB…</item> <!-- Seagate Barracuda 2TB -->
+        <item>Típus: M.2 NVMe SSD \nKapacitás: 1 TB \nOlvasási sebesség: 3400 MB/s \nÍrási sebesség: 3000 MB/s…</item> <!-- Crucial P5 1TB -->
+        <item>Típus: M.2 NVMe SSD \nKapacitás: 500 GB \nOlvasási sebesség: 2200 MB/s \nÍrási sebesség: 2000 MB/s…</item> <!-- Kingston A2000 500GB -->
+        <item>Típus: M.2 NVMe SSD \nKapacitás: 500 GB \nOlvasási sebesség: 7000 MB/s \nÍrási sebesség: 5000 MB/s…</item> <!-- Samsung 980 PRO 500GB -->
+        <item>Típus: HDD 3.5" \nKapacitás: 1 TB \nFordulatszám: 7200 RPM \nCache: 64 MB…</item> <!-- WD Blue 1TB -->
+        <item>Típus: M.2 NVMe SSD \nKapacitás: 1 TB \nOlvasási sebesség: 3500 MB/s \nÍrási sebesség: 3000 MB/s…</item> <!-- PNY XLR8 CS3030 1TB -->
+        <item>Típus: SSD 2.5" \nKapacitás: 1 TB \nCsatoló: SATA III \nOlvasási sebesség: 560 MB/s…</item> <!-- SanDisk Ultra 3D 1TB -->
+        <item>Típus: HDD 3.5" \nKapacitás: 2 TB \nFordulatszám: 7200 RPM \nCache: 64 MB…</item> <!-- Toshiba P300 2TB -->
+
+        <item>Teljesítmény: 750W \nTanúsítvány: 80+ Gold \nModularitás: Teljesen moduláris \nVentilátor: 135 mm…</item> <!-- Corsair RM750x -->
+        <item>Teljesítmény: 750W \nTanúsítvány: 80+ Gold \nModularitás: Teljesen moduláris \nDC-DC technológia…</item> <!-- SEA Sonic FOCUS Plus 750W -->
+        <item>Teljesítmény: 650W \nTanúsítvány: 80+ Gold \nModularitás: Teljesen moduláris \nVentilátor: 135 mm…</item> <!-- EVGA SuperNOVA 650 G5 -->
+        <item>Teljesítmény: 850W \nTanúsítvány: 80+ Gold \nModularitás: Teljesen moduláris \nJapán kondenzátorok…</item> <!-- FSP Hydro G 850W -->
+        <item>Teljesítmény: 650W \nTanúsítvány: 80+ Gold \nModularitás: Félig moduláris \nCsendes működés…</item> <!-- Cooler Master MWE Gold 650W -->
+        <item>Teljesítmény: 500W \nTanúsítvány: 80+ Bronze \nModularitás: Nem moduláris \nVentilátor: 120 mm…</item> <!-- Seasonic S12III 500W -->
+        <item>Teljesítmény: 750W \nTanúsítvány: 80+ Gold \nModularitás: Félig moduláris \nMagas hatásfok…</item> <!-- Rosewill Capstone 750W -->
+        <item>Teljesítmény: 650W \nTanúsítvány: 80+ Gold \nModularitás: Teljesen moduláris \nCsendes ventilátor…</item> <!-- Antec Earthwatts Gold 650W -->
+        <item>Teljesítmény: 1000W \nTanúsítvány: 80+ Platinum \nModularitás: Teljesen moduláris \nDigitális vezérlés…</item> <!-- Corsair HX1000i -->
+        <item>Teljesítmény: 700W \nTanúsítvány: 80+ Bronze \nModularitás: Nem moduláris \nAlacsony zajszint…</item> <!-- Leviathan 700W -->
+
+        <item>Hely: ATX \nVentilátorok: 3x 120mm RGB előre, 1x 120mm hátul \nI/O portok: 2x USB 3.0, Audio, Reset gomb…</item> <!-- CORSAIR iCUE 5000T RGB TG fekete -->
+        <item>Hely: ATX \nVentilátorok: 2x 200mm, 1x 120mm \nKülönleges jellemzők: RGB világítás, teljesen moduláris…</item> <!-- Cooler Master MasterCase H500M -->
+        <item>Hely: ATX \nVentilátorok: 3x 120mm előre \nKülönleges jellemzők: Teljesen átlátszó oldallap…</item> <!-- Corsair iCUE 220T -->
+        <item>Hely: ATX \nVentilátorok: 3x 120mm \nKülönleges jellemzők: Kiváló légáramlás, átlátszó oldallap…</item> <!-- Phanteks P400A -->
+        <item>Hely: Micro ATX \nVentilátorok: 2x 200mm \nKülönleges jellemzők: Modularitás, átlátszó oldallap…</item> <!-- Cooler Master MasterBox Q300L -->
+        <item>Hely: ATX \nVentilátorok: 3x 120mm \nKülönleges jellemzők: RGB világítás, átlátszó oldallap…</item> <!-- Antec DF500 -->
+        <item>Hely: ATX \nVentilátorok: 1x 120mm \nKülönleges jellemzők: RGB világítás, kompakt dizájn…</item> <!-- Aerocool Cylon -->
+        <item>Hely: ATX \nVentilátorok: 2x 120mm \nKülönleges jellemzők: Átlátszó oldallap, minimalista dizájn…</item> <!-- Corsair Carbide 275R -->
+        <item>Hely: ATX \nVentilátorok: 3x 120mm előre, 1x 120mm hátul \nKülönleges jellemzők: Kiváló szellőzés, minimalista dizájn…</item> <!-- Lian Li PC-011 Dynamic -->
+        <item>Hely: ATX \nVentilátorok: 3x 120mm \nKülönleges jellemzők: Robusztus felépítés, szellőzőrendszer…</item> <!-- Thermaltake Core V71 -->
+
+        <item>Hűtési típus: Léghűtés \nVentilátorok: 2x 140mm \nMax. kompatibilis processzor: 150W TDP…</item> <!-- Noctua NH-D15 -->
+        <item>Hűtési típus: AIO vízhűtés \nRadiátor: 360mm \nVentilátorok: 3x 120mm RGB…</item> <!-- Corsair iCUE H150i Elite Capellix -->
+        <item>Hűtési típus: AIO vízhűtés \nRadiátor: 360mm \nVentilátorok: 3x 120mm…</item> <!-- Liquid Freezer II 360 -->
+        <item>Hűtési típus: AIO vízhűtés \nRadiátor: 240mm \nVentilátorok: 2x 120mm…</item> <!-- MSI MAG CoreLiquid 240R -->
+        <item>Hűtési típus: Léghűtés \nVentilátorok: 1x 120mm \nMax. kompatibilis processzor: 130W TDP…</item> <!-- Air Cooler Hyper 212 EVO -->
+        <item>Hűtési típus: Léghűtés \nVentilátorok: 1x 120mm \nMax. kompatibilis processzor: 150W TDP…</item> <!-- Cooler Master Hyper 212 -->
+        <item>Hűtési típus: AIO vízhűtés \nRadiátor: 240mm \nVentilátorok: 2x 120mm…</item> <!-- Corsair H100i PRO -->
+        <item>Hűtési típus: Léghűtés \nVentilátorok: 1x 120mm \nMax. kompatibilis processzor: 200W TDP…</item> <!-- Noctua NH-U12A -->
+        <item>Hűtési típus: AIO vízhűtés \nRadiátor: 280mm \nVentilátorok: 2x 140mm…</item> <!-- Arctic Liquid Freezer II 280 -->
+        <item>Hűtési típus: Léghűtés \nVentilátorok: 1x 120mm \nMax. kompatibilis processzor: 130W TDP…</item> <!-- Zalman CNPS10X Performa -->
+
+        <item>Nyomtatási technológia: Tintasugaras \nSzkennelési felbontás: 1200 x 2400 dpi \nMax. nyomtatási sebesség: 10 oldal/perc…</item> <!-- Epson EcoTank L3150 -->
+        <item>Nyomtatási technológia: Tintasugaras \nSzkennelési felbontás: 600 x 1200 dpi \nMax. nyomtatási sebesség: 7.7 oldal/perc…</item> <!-- Canon PIXMA TS3450 -->
+        <item>Nyomtatási technológia: Lézernyomtatás \nSzkennelési felbontás: 600 x 600 dpi \nMax. nyomtatási sebesség: 20 oldal/perc…</item> <!-- HP ScanJet Pro 2500 -->
+        <item>Nyomtatási technológia: Tintasugaras \nSzkennelési felbontás: 600 x 1200 dpi \nMax. nyomtatási sebesség: 7.5 oldal/perc…</item> <!-- HP DeskJet 2720 -->
+        <item>Nyomtatási technológia: Tintasugaras \nSzkennelési felbontás: 2400 x 4800 dpi \nMax. nyomtatási sebesség: 8 oldal/perc…</item> <!-- Canon CanoScan LiDE 400 -->
+        <item>Nyomtatási technológia: Lézernyomtatás \nSzkennelési felbontás: 2400 x 600 dpi \nMax. nyomtatási sebesség: 32 oldal/perc…</item> <!-- Brother HL-L2350DW -->
+        <item>Nyomtatási technológia: Tintasugaras \nSzkennelési felbontás: 1200 x 2400 dpi \nMax. nyomtatási sebesség: 8.5 oldal/perc…</item> <!-- Epson EcoTank ET-2720 -->
+        <item>Nyomtatási technológia: Tintasugaras \nSzkennelési felbontás: 600 x 1200 dpi \nMax. nyomtatási sebesség: 8 oldal/perc…</item> <!-- Canon PIXMA G3400 -->
+        <item>Nyomtatási technológia: Tintasugaras \nSzkennelési felbontás: 4800 x 4800 dpi \nMax. nyomtatási sebesség: 10 oldal/perc…</item> <!-- Epson Perfection V39 -->
+        <item>Nyomtatási technológia: Tintasugaras \nSzkennelési felbontás: 1200 x 1200 dpi \nMax. nyomtatási sebesség: 12 oldal/perc…</item> <!-- Brother MFC-J995DW -->
+
+        <item>Billentyűzet típusa: Mechanikus \nKapcsoló típusa: Optikai \nRGB világítás: Igen \nSzoftveres támogatás: Igen…</item> <!-- Razer Huntsman Elite -->
+        <item>Típus: Vezeték nélküli \nKapcsolódás: Bluetooth, Unifying Receiver \nFormátum: Ergonomikus \nAkkumulátor élettartam: 70 óra…</item> <!-- Logitech MX Master 3 -->
+        <item>Billentyűzet típusa: Mechanikus \nKapcsoló típusa: Cherry MX RGB \nRGB világítás: Igen \nSzoftveres támogatás: Igen…</item> <!-- Corsair K95 RGB Platinum -->
+        <item>Típus: Optikai érzékelős \nGombok száma: 7 \nRGB világítás: Igen \nSzoftveres támogatás: Igen…</item> <!-- Razer DeathAdder Elite -->
+        <item>Típus: Mechanikus \nKapcsoló típusa: OmniPoint \nRGB világítás: Igen \nProgramozható gombok: 5…</item> <!-- steelseries Apex Pro -->
+        <item>Típus: Optikai érzékelős \nGombok száma: 11 \nRGB világítás: Igen \nErgonomikus kialakítás: Igen…</item> <!-- Logitech G502 Hero -->
+        <item>Típus: Mechanikus \nKapcsoló típusa: Cherry MX \nRGB világítás: Igen \nFormátum: Kompakt…</item> <!-- HyperX Alloy FPS Pro -->
+        <item>Típus: Optikai érzékelős \nGombok száma: 7 \nRGB világítás: Igen \nErgonomikus kialakítás: Igen…</item> <!-- SteelSeries Rival 600 -->
+        <item>Típus: Membrán \nFormátum: Kompakt \nRGB világítás: Nincs \nErgonomikus kialakítás: Igen…</item> <!-- ANTEC K3 -->
+        <item>Típus: Optikai érzékelős \nGombok száma: 8 \nRGB világítás: Igen \nErgonomikus kialakítás: Igen…</item> <!-- SteelSeries Sensei Ten -->
+
+        <item>Hangszóró típus: Bluetooth \nTeljesítmény: 40 W \nAkkumulátor üzemidő: 16 óra \nVízállóság: IPX4…</item> <!-- Bose SoundLink Revolve+ -->
+        <item>Hangszóró típus: 2.1 \nTeljesítmény: 50 W \nCsatlakozás: Vezetékes \nTávvezérlés: Igen…</item> <!-- Logitech Z313 -->
+        <item>Hangszóró típus: Bluetooth \nTeljesítmény: 20 W \nAkkumulátor üzemidő: 12 óra \nVízállóság: IPX7…</item> <!-- JBL Flip 5 -->
+        <item>Hangszóró típus: Bluetooth \nTeljesítmény: 14 W \nAkkumulátor üzemidő: 8 óra \nVízállóság: IPX7…</item> <!-- Boat Stone 1000 -->
+        <item>Hangszóró típus: Bluetooth \nTeljesítmény: 12 W \nAkkumulátor üzemidő: 24 óra \nVízállóság: IPX7…</item> <!-- Anker Soundcore 2 -->
+        <item>Hangszóró típus: Bluetooth \nTeljesítmény: 30 W \nAkkumulátor üzemidő: 24 óra \nVízállóság: IP67…</item> <!-- Sony SRS-XB33 -->
+        <item>Hangszóró típus: Bluetooth \nTeljesítmény: 30 W \nAkkumulátor üzemidő: 12 óra \nVízállóság: IPX7…</item> <!-- Philips BT6900 -->
+        <item>Hangszóró típus: Passzív \nTeljesítmény: 100 W \nCsatlakozás: Vezetékes \nFrekvencia válasz: 62 Hz - 24 kHz…</item> <!-- Klipsch R-51M -->
+        <item>Hangszóró típus: Bluetooth \nTeljesítmény: 80 W \nAkkumulátor üzemidő: 20 óra \nVízállóság: IPX4…</item> <!-- Marshall Stanmore II -->
+        <item>Hangszóró típus: Vezeték nélküli \nTeljesítmény: 200 W \nFrekvencia válasz: 45 Hz - 28 kHz \nTámogatott zenei formátumok: Wi-Fi, Bluetooth…</item> <!-- KEF LS50 Wireless -->
+
+        <item>Vezérlés: HDMI 2.0 \nMax. felbontás: 4K @ 60Hz \nHossza: 1.8m \nAranyozott csatlakozók…</item> <!-- AmazonBasics HDMI 2.0 -->
+        <item>Típus: USB-C \nMax. adatátvitel: 5Gbps \nHossza: 1m \nErősített szövetszálas bevonat…</item> <!-- UGREEN USB-C -->
+        <item>Típus: Lightning \nMax. adatátvitel: 480Mbps \nHossza: 1m \nMFI tanúsítvánnyal…</item> <!-- ANKER PowerLine Lightning -->
+        <item>Típus: VGA \nMax. felbontás: 1920x1080 \nHossza: 1.8m \nPiros csatlakozó…</item> <!-- StarTech VGA -->
+        <item>Típus: DisplayPort \nMax. felbontás: 4K @ 60Hz \nHossza: 1.8m \nAranyozott csatlakozók…</item> <!-- AmazonBasics DisplayPort -->
+        <item>Típus: USB-C \nMax. adatátvitel: 5Gbps \nHossza: 1m \nKábel megerősített dizájnnal…</item> <!-- Anker PowerLine+ USB-C -->
+        <item>Típus: Type-C \nMax. adatátvitel: 5Gbps \nHossza: 1m \nKábel szövetszálas bevonattal…</item> <!-- Corsair Type-C -->
+        <item>Típus: 3.5mm Aux \nMax. adatátvitel: 3.5mm \nHossza: 1.2m \nAranyozott csatlakozó…</item> <!-- Belkin 3.5mm Aux -->
+        <item>Típus: Ethernet \nMax. sebesség: 1Gbps \nHossza: 2m \nKiváló szigetelés…</item> <!-- AmazonBasics Ethernet -->
+        <item>Típus: Micro USB \nMax. adatátvitel: 480Mbps \nHossza: 1.5m \nKompakt dizájn…</item> <!-- Logitech Micro USB -->
+    </string-array>
+
+    <array name="items_in_category_images">
+        <item>@drawable/highlighted_asus_b550f</item>
+        <item>@drawable/highlighted_asrock_b450_pro4</item>
+        <item>@drawable/motherboard_gigabyte_z390</item>
+        <item>@drawable/motherboard_asrock_x570</item>
+        <item>@drawable/motherboard_msi_b550</item>
+        <item>@drawable/motherboard_asus_b450</item>
+        <item>@drawable/motherboard_asrock_b450m</item>
+        <item>@drawable/motherboard_asrock_h310cm</item>
+        <item>@drawable/motherboard_evga_z390</item>
+        <item>@drawable/motherboard_asrock_a320mhdv</item>
+
+        <item>@drawable/highlighted_i5_10400f</item>
+        <item>@drawable/highlighted_i7_12700k</item>
+        <item>@drawable/processor_i5_12600k</item>
+        <item>@drawable/processor_ryzen_5800x</item>
+        <item>@drawable/processor_i7_10700k</item>
+        <item>@drawable/processor_ryzen_3600</item>
+        <item>@drawable/processor_ryzen_3300x</item>
+        <item>@drawable/processor_i9_11900k</item>
+        <item>@drawable/processor_ryzen_3700x</item>
+
+        <item>@drawable/memory_corsair_vengeance_lpx_16gb</item>
+        <item>@drawable/memory_gskill_ripjaws_v_32gb</item>
+        <item>@drawable/memory_crucial_ballistix_8gb</item>
+        <item>@drawable/memory_kingston_hyperx_fury_16gb</item>
+        <item>@drawable/memory_gskill_trident_z_rgb_16gb</item>
+        <item>@drawable/memory_corsair_vengeance_rgb_32gb</item>
+        <item>@drawable/memory_kingston_hyperx_predator_16gb</item>
+        <item>@drawable/memory_corsair_vengeance_lpx_8gb</item>
+        <item>@drawable/memory_gskill_trident_z_8gb</item>
+        <item>@drawable/memory_crucial_ballistix_sport_lt_16gb</item>
+
+        <item>@drawable/vga_nvidia_rtx_3080</item>
+        <item>@drawable/vga_radeon_rx_6800_xt</item>
+        <item>@drawable/vga_nvidia_gtx_1660_ti</item>
+        <item>@drawable/vga_radeon_rx_5700</item>
+        <item>@drawable/vga_nvidia_rtx_3090</item>
+        <item>@drawable/vga_radeon_rx_6900</item>
+        <item>@drawable/vga_nvidia_gtx_1050ti</item>
+        <item>@drawable/vga_radeon_rx_580</item>
+        <item>@drawable/vga_nvidia_gtx_1080ti</item>
+        <item>@drawable/vga_radeon_rx_vega560</item>
+
+        <item>@drawable/monitor_dell_u2720q</item>
+        <item>@drawable/monitor_samsung_g7</item>
+        <item>@drawable/monitor_lg_27gl850b</item>
+        <item>@drawable/monitor_asus_pg259qn</item>
+        <item>@drawable/monitor_acer_x34</item>
+        <item>@drawable/monitor_curve_4k</item>
+        <item>@drawable/monitor_lg_32un880pb</item>
+        <item>@drawable/monitor_asus_vg27aq</item>
+        <item>@drawable/monitor_dell_p2419h</item>
+        <item>@drawable/monitor_acer_nitro_xv272u</item>
+
+        <item>@drawable/highlighted_samsung_870_evo</item>
+        <item>@drawable/highlighted_kingstone_kc_400</item>
+        <item>@drawable/hdd_seagate_barracuda_2tb</item>
+        <item>@drawable/m2_crucial_p5_1tb</item>
+        <item>@drawable/m2_kingstone_a2000_500gb</item>
+        <item>@drawable/m2_samsung_980pro_500gb</item>
+        <item>@drawable/hdd_wd_blue_1tb</item>
+        <item>@drawable/m2_pny_cs3030_1tb</item>
+        <item>@drawable/ssd_sandisk_3d_1tb</item>
+        <item>@drawable/hdd_toshiba_p300_2tb</item>
+
+        <item>@drawable/ps_corsair_rm750x</item>
+        <item>@drawable/ps_seasonic_focus_750w</item>
+        <item>@drawable/ps_evga_supernova__g5_650w</item>
+        <item>@drawable/ps_fsp_hydrog_850w</item>
+        <item>@drawable/ps_coolermaster_gold_650w</item>
+        <item>@drawable/ps_seasonic_focus_500w</item>
+        <item>@drawable/ps_capstone_750w</item>
+        <item>@drawable/ps_antec_650w</item>
+        <item>@drawable/ps_corsair_1000w</item>
+        <item>@drawable/ps_leviathan_700w</item>
+
+        <item>@drawable/highlighted_corsair_case</item>
+        <item>@drawable/highlighted_cooler_master_case</item>
+        <item>@drawable/case_corsair_220t</item>
+        <item>@drawable/case_phanteks_p400a</item>
+        <item>@drawable/case_coolermaster_boxq300l</item>
+        <item>@drawable/case_antec_df500</item>
+        <item>@drawable/case_aerocool_cylon</item>
+        <item>@drawable/case_corsair_275r</item>
+        <item>@drawable/case_lian_dynamic</item>
+        <item>@drawable/case_thermaltake_core_v71</item>
+
+        <item>@drawable/cooler_noctua_nhd15</item>
+        <item>@drawable/cooler_corsair_h150i</item>
+        <item>@drawable/cooler_freezer_2</item>
+        <item>@drawable/cooler_msi_coreliquid_240r</item>
+        <item>@drawable/cooler_coolermaster_hyper_212</item>
+        <item>@drawable/cooler_coolermaster_h212</item>
+        <item>@drawable/cooler_corsair_h100i</item>
+        <item>@drawable/cooler_noctua_nhu12a</item>
+        <item>@drawable/cooler_arctic_liquid280</item>
+        <item>@drawable/cooler_zalman_cnps10x</item>
+
+        <item>@drawable/printer_epson_l3150</item>
+        <item>@drawable/printer_canon_ts3450</item>
+        <item>@drawable/printer_hp_2500pro</item>
+        <item>@drawable/printer_hp_2720</item>
+        <item>@drawable/printer_canon_lide400</item>
+        <item>@drawable/printer_brother_l2350dw</item>
+        <item>@drawable/printer_epson_et2720</item>
+        <item>@drawable/printer_canon_g3400</item>
+        <item>@drawable/printer_epson_perfecv39</item>
+        <item>@drawable/printer_brother_mfcj995dw</item>
+
+        <item>@drawable/keyboard_razer_huntsman</item>
+        <item>@drawable/mouse_logitech_mxm3</item>
+        <item>@drawable/keyboard_corsair_k95</item>
+        <item>@drawable/mouse_razer_deathadder</item>
+        <item>@drawable/keyboard_steelseries_apex</item>
+        <item>@drawable/mouse_logitech_g502</item>
+        <item>@drawable/keyboard_hyperx_alloy</item>
+        <item>@drawable/mouse_steelseries600</item>
+        <item>@drawable/mouse_antec3</item>
+        <item>@drawable/mouse_steelseries_sensei</item>
+
+        <item>@drawable/speaker_bose_soundlike</item>
+        <item>@drawable/speaker_logitech_z313</item>
+        <item>@drawable/speaker_jbl_flip5</item>
+        <item>@drawable/speaker_boat_stone1000</item>
+        <item>@drawable/speaker_anker_soundcore2</item>
+        <item>@drawable/speaker_sony_srs_xb33</item>
+        <item>@drawable/speaker_phillips_bt6900</item>
+        <item>@drawable/speaker_klipsch_r51m</item>
+        <item>@drawable/spaker_marshall_stanmore2</item>
+        <item>@drawable/speaker_kef_ls50</item>
+
+        <item>@drawable/cabel_amazon_hdmi</item>
+        <item>@drawable/cabel_ugreen_usbc</item>
+        <item>@drawable/cabel_anker_lightning</item>
+        <item>@drawable/cabel_startech_vga</item>
+        <item>@drawable/cabel_amazon_dp</item>
+        <item>@drawable/cabel_anker_usbc</item>
+        <item>@drawable/cabel_corsair_typec</item>
+        <item>@drawable/cabel_belkin_aux</item>
+        <item>@drawable/cabel_amazon_utp</item>
+        <item>@drawable/cabel_logitech_microusb</item>
+    </array>
+
+    <array name="items_in_category_prices">
+        <item>39 330 Ft</item>  <!-- Asus ROG STRIX B550-F GAMING -->
+        <item>29 120 Ft</item>  <!-- ASRock B450 Pro4 -->
+        <item>23 990 Ft</item> <!-- Gigabyte AORUS Z390 -->
+        <item>25 990 Ft</item> <!-- Asrock X570 Steel Legend -->
+        <item>21 990 Ft</item> <!-- MSI MAG B550 TOMAHAWK WIFI -->
+        <item>15 990 Ft</item> <!-- Asus TUF B450M-PLUS -->
+        <item>15 490 Ft</item> <!-- ASRock B450M PRO4 -->
+        <item>9 990 Ft</item> <!-- ZOTAC ASRock H310CM-DVS -->
+        <item>26 990 Ft</item> <!-- EVGA Z390 FTW -->
+        <item>8 990 Ft</item> <!-- ASRock A320M-HDV -->
+
+        <item>45 224 Ft</item>      <!-- i5-10400F -->
+        <item>122 443 Ft</item>     <!-- i7-12700K -->
+        <item>93 990 Ft</item>      <!-- i5-11600K -->
+        <item>115 990 Ft</item>     <!-- Ryzen 7 5800X -->
+        <item>104 490 Ft</item>     <!-- i7-10700K -->
+        <item>67 990 Ft</item>      <!-- Ryzen 5 3600 -->
+        <item>54 990 Ft</item>      <!-- Ryzen 3 3300X -->
+        <item>147 990 Ft</item>     <!-- i9-11900K -->
+        <item>98 490 Ft</item>      <!-- Ryzen 7 3700X -->
+
+        <item>19 990 Ft</item> <!-- Corsair Vengeance LPX 16GB -->
+        <item>32 490 Ft</item> <!-- G.SKILL Ripjaws V 32GB -->
+        <item>10 990 Ft</item> <!-- Crucial Ballistix 8GB -->
+        <item>21 490 Ft</item> <!-- Kingston HyperX Fury 16GB -->
+        <item>27 990 Ft</item> <!-- G.SKILL Trident Z RGB 16GB -->
+        <item>34 990 Ft</item> <!-- Corsair Vengeance RGB 32GB -->
+        <item>28 490 Ft</item> <!-- Kingston HyperX Predator 16GB -->
+        <item>9 490 Ft</item> <!-- Corsair Vengeance LPX 8GB -->
+        <item>11 990 Ft</item> <!-- G.SKILL Trident Z 8GB -->
+        <item>22 990 Ft</item> <!-- Crucial Ballistix Sport LT 16GB -->
+
+        <item>299 990 Ft</item> <!-- NVIDIA GeForce RTX 3080 -->
+        <item>284 990 Ft</item> <!-- AMD Radeon RX 6800 XT -->
+        <item>129 990 Ft</item> <!-- NVIDIA GeForce GTX 1660 Ti -->
+        <item>139 990 Ft</item> <!-- AMD Radeon RX 5700 -->
+        <item>499 990 Ft</item> <!-- NVIDIA GeForce RTX 3090 -->
+        <item>379 990 Ft</item> <!-- AMD Radeon RX 6900 XT -->
+        <item>74 990 Ft</item> <!-- NVIDIA GeForce GTX 1050 Ti -->
+        <item>89 990 Ft</item> <!-- AMD Radeon RX 580 -->
+        <item>159 990 Ft</item> <!-- NVIDIA GeForce GTX 1080 Ti -->
+        <item>119 990 Ft</item> <!-- AMD Radeon RX Vega 56 -->
+
+        <item>224 990 Ft</item> <!-- Dell UltraSharp U2720Q -->
+        <item>219 990 Ft</item> <!-- Samsung Odyssey G7 -->
+        <item>179 990 Ft</item> <!-- LG 27GL850-B -->
+        <item>269 990 Ft</item> <!-- ASUS ROG Swift PG259QN -->
+        <item>399 990 Ft</item> <!-- Acer Predator X34 -->
+        <item>189 990 Ft</item> <!-- Samsung 27" Curved 4K -->
+        <item>249 990 Ft</item> <!-- LG 32UN880-B -->
+        <item>199 990 Ft</item> <!-- ASUS TUF VG27AQ -->
+        <item>84 990 Ft</item> <!-- Dell P2419H -->
+        <item>159 990 Ft</item> <!-- Acer Nitro XV272U -->
+
+        <item>18 566 Ft</item> <!-- Samsung 870 Evo 500GB -->
+        <item>27 688 Ft</item> <!-- Kingston SSDNow KC400 1 TB -->
+        <item>22 990 Ft</item> <!-- Seagate Barracuda 2TB -->
+        <item>34 990 Ft</item> <!-- Crucial P5 1TB -->
+        <item>21 990 Ft</item> <!-- Kingston A2000 500GB -->
+        <item>42 990 Ft</item> <!-- Samsung 980 PRO 500GB -->
+        <item>20 990 Ft</item> <!-- WD Blue 1TB -->
+        <item>32 990 Ft</item> <!-- PNY XLR8 CS3030 1TB -->
+        <item>35 990 Ft</item> <!-- SanDisk Ultra 3D 1TB -->
+        <item>23 990 Ft</item> <!-- Toshiba P300 2TB -->
+
+        <item>56 990 Ft</item> <!-- Corsair RM750x -->
+        <item>52 990 Ft</item> <!-- SEA Sonic FOCUS Plus 750W -->
+        <item>48 990 Ft</item> <!-- EVGA SuperNOVA 650 G5 -->
+        <item>59 990 Ft</item> <!-- FSP Hydro G 850W -->
+        <item>41 990 Ft</item> <!-- Cooler Master MWE Gold 650W -->
+        <item>24 990 Ft</item> <!-- Seasonic S12III 500W -->
+        <item>39 990 Ft</item> <!-- Rosewill Capstone 750W -->
+        <item>45 990 Ft</item> <!-- Antec Earthwatts Gold 650W -->
+        <item>76 990 Ft</item> <!-- Corsair HX1000i -->
+        <item>29 990 Ft</item> <!-- Leviathan 700W -->
+
+        <item>88 655 Ft</item> <!-- CORSAIR iCUE 5000T RGB TG fekete -->
+        <item>64 442 Ft</item> <!-- Cooler Master MasterCase H500M -->
+        <item>32 990 Ft</item> <!-- Corsair iCUE 220T -->
+        <item>25 990 Ft</item> <!-- Phanteks P400A -->
+        <item>15 990 Ft</item> <!-- Cooler Master MasterBox Q300L -->
+        <item>22 990 Ft</item> <!-- Antec DF500 -->
+        <item>11 990 Ft</item> <!-- Aerocool Cylon -->
+        <item>14 990 Ft</item> <!-- Corsair Carbide 275R -->
+        <item>27 990 Ft</item> <!-- Lian Li PC-011 Dynamic -->
+        <item>33 990 Ft</item> <!-- Thermaltake Core V71 -->
+
+        <item>39 990 Ft</item> <!-- Noctua NH-D15 -->
+        <item>49 990 Ft</item> <!-- Corsair iCUE H150i Elite Capellix -->
+        <item>42 990 Ft</item> <!-- Liquid Freezer II 360 -->
+        <item>22 990 Ft</item> <!-- MSI MAG CoreLiquid 240R -->
+        <item>10 990 Ft</item> <!-- Air Cooler Hyper 212 EVO -->
+        <item>9 990 Ft</item> <!-- Cooler Master Hyper 212 -->
+        <item>19 990 Ft</item> <!-- Corsair H100i PRO -->
+        <item>22 990 Ft</item> <!-- Noctua NH-U12A -->
+        <item>29 990 Ft</item> <!-- Arctic Liquid Freezer II 280 -->
+        <item>8 990 Ft</item> <!-- Zalman CNPS10X Performa -->
+
+        <item>49 990 Ft</item> <!-- Epson EcoTank L3150 -->
+        <item>19 990 Ft</item> <!-- Canon PIXMA TS3450 -->
+        <item>35 990 Ft</item> <!-- HP ScanJet Pro 2500 -->
+        <item>12 990 Ft</item> <!-- HP DeskJet 2720 -->
+        <item>13 990 Ft</item> <!-- Canon CanoScan LiDE 400 -->
+        <item>22 990 Ft</item> <!-- Brother HL-L2350DW -->
+        <item>44 990 Ft</item> <!-- Epson EcoTank ET-2720 -->
+        <item>17 990 Ft</item> <!-- Canon PIXMA G3400 -->
+        <item>9 990 Ft</item> <!-- Epson Perfection V39 -->
+        <item>18 990 Ft</item> <!-- Brother MFC-J995DW -->
+
+        <item>59 990 Ft</item> <!-- Razer Huntsman Elite -->
+        <item>34 990 Ft</item> <!-- Logitech MX Master 3 -->
+        <item>49 990 Ft</item> <!-- Corsair K95 RGB Platinum -->
+        <item>18 990 Ft</item> <!-- Razer DeathAdder Elite -->
+        <item>44 990 Ft</item> <!-- steelseries Apex Pro -->
+        <item>22 990 Ft</item> <!-- Logitech G502 Hero -->
+        <item>21 990 Ft</item> <!-- HyperX Alloy FPS Pro -->
+        <item>19 990 Ft</item> <!-- SteelSeries Rival 600 -->
+        <item>7 990 Ft</item> <!-- ANTEC K3 -->
+        <item>14 990 Ft</item> <!-- SteelSeries Sensei Ten -->
+
+        <item>129 990 Ft</item> <!-- Bose SoundLink Revolve+ -->
+        <item>18 990 Ft</item> <!-- Logitech Z313 -->
+        <item>24 990 Ft</item> <!-- JBL Flip 5 -->
+        <item>13 990 Ft</item> <!-- Boat Stone 1000 -->
+        <item>16 990 Ft</item> <!-- Anker Soundcore 2 -->
+        <item>29 990 Ft</item> <!-- Sony SRS-XB33 -->
+        <item>22 990 Ft</item> <!-- Philips BT6900 -->
+        <item>49 990 Ft</item> <!-- Klipsch R-51M -->
+        <item>59 990 Ft</item> <!-- Marshall Stanmore II -->
+        <item>499 990 Ft</item> <!-- KEF LS50 Wireless -->
+
+        <item>1 990 Ft</item> <!-- AmazonBasics HDMI 2.0 -->
+        <item>2 590 Ft</item> <!-- UGREEN USB-C -->
+        <item>3 490 Ft</item> <!-- ANKER PowerLine Lightning -->
+        <item>1 890 Ft</item> <!-- StarTech VGA -->
+        <item>2 490 Ft</item> <!-- AmazonBasics DisplayPort -->
+        <item>3 490 Ft</item> <!-- Anker PowerLine+ USB-C -->
+        <item>2 790 Ft</item> <!-- Corsair Type-C -->
+        <item>1 990 Ft</item> <!-- Belkin 3.5mm Aux -->
+        <item>2 290 Ft</item> <!-- AmazonBasics Ethernet -->
+        <item>1 590 Ft</item> <!-- Logitech Micro USB -->
+    </array>
+
+    <array name="items_in_category_rates">
+        <item>4</item> <!-- Asus ROG STRIX B550-F GAMING -->
+        <item>4</item> <!-- ASRock B450 Pro4 -->
+        <item>4.7</item> <!-- Gigabyte AORUS Z390 -->
+        <item>4.7</item> <!-- Asrock X570 Steel Legend -->
+        <item>4.6</item> <!-- MSI MAG B550 TOMAHAWK WIFI -->
+        <item>4.5</item> <!-- Asus TUF B450M-PLUS -->
+        <item>4.6</item> <!-- ASRock B450M PRO4 -->
+        <item>4.4</item> <!-- ZOTAC ASRock H310CM-DVS -->
+        <item>4.7</item> <!-- EVGA Z390 FTW -->
+        <item>4.5</item> <!-- ASRock A320M-HDV -->
+
+        <item>3</item> <!-- i5-10400F -->
+        <item>3.5</item> <!-- i7-12700K -->
+        <item>4.6</item>  <!-- i5-11600K -->
+        <item>4.8</item>  <!-- Ryzen 7 5800X -->
+        <item>4.5</item>  <!-- i7-10700K -->
+        <item>4.7</item>  <!-- Ryzen 5 3600 -->
+        <item>4.3</item>  <!-- i5-10400F -->
+        <item>4.2</item>  <!-- Ryzen 3 3300X -->
+        <item>4.9</item>  <!-- i9-11900K -->
+        <item>4.6</item>  <!-- Ryzen 7 3700X -->
+
+        <item>4.7</item> <!-- Corsair Vengeance LPX 16GB -->
+        <item>4.8</item> <!-- G.SKILL Ripjaws V 32GB -->
+        <item>4.5</item> <!-- Crucial Ballistix 8GB -->
+        <item>4.6</item> <!-- Kingston HyperX Fury 16GB -->
+        <item>4.9</item> <!-- G.SKILL Trident Z RGB 16GB -->
+        <item>4.8</item> <!-- Corsair Vengeance RGB 32GB -->
+        <item>4.7</item> <!-- Kingston HyperX Predator 16GB -->
+        <item>4.4</item> <!-- Corsair Vengeance LPX 8GB -->
+        <item>4.3</item> <!-- G.SKILL Trident Z 8GB -->
+        <item>4.6</item> <!-- Crucial Ballistix Sport LT 16GB -->
+
+        <item>4.9</item> <!-- NVIDIA GeForce RTX 3080 -->
+        <item>4.8</item> <!-- AMD Radeon RX 6800 XT -->
+        <item>4.6</item> <!-- NVIDIA GeForce GTX 1660 Ti -->
+        <item>4.5</item> <!-- AMD Radeon RX 5700 -->
+        <item>5.0</item> <!-- NVIDIA GeForce RTX 3090 -->
+        <item>4.9</item> <!-- AMD Radeon RX 6900 XT -->
+        <item>4.3</item> <!-- NVIDIA GeForce GTX 1050 Ti -->
+        <item>4.4</item> <!-- AMD Radeon RX 580 -->
+        <item>4.7</item> <!-- NVIDIA GeForce GTX 1080 Ti -->
+        <item>4.5</item> <!-- AMD Radeon RX Vega 56 -->
+
+        <item>4.8</item> <!-- Dell UltraSharp U2720Q -->
+        <item>4.9</item> <!-- Samsung Odyssey G7 -->
+        <item>4.7</item> <!-- LG 27GL850-B -->
+        <item>4.9</item> <!-- ASUS ROG Swift PG259QN -->
+        <item>5.0</item> <!-- Acer Predator X34 -->
+        <item>4.6</item> <!-- Samsung 27" Curved 4K -->
+        <item>4.8</item> <!-- LG 32UN880-B -->
+        <item>4.7</item> <!-- ASUS TUF VG27AQ -->
+        <item>4.5</item> <!-- Dell P2419H -->
+        <item>4.6</item> <!-- Acer Nitro XV272U -->
+
+        <item>3</item> <!-- Samsung 870 Evo 500GB -->
+        <item>5</item> <!-- Kingston SSDNow KC400 1 TB -->
+        <item>4.7</item> <!-- Seagate Barracuda 2TB -->
+        <item>4.8</item> <!-- Crucial P5 1TB -->
+        <item>4.7</item> <!-- Kingston A2000 500GB -->
+        <item>4.9</item> <!-- Samsung 980 PRO 500GB -->
+        <item>4.6</item> <!-- WD Blue 1TB -->
+        <item>4.8</item> <!-- PNY XLR8 CS3030 1TB -->
+        <item>4.7</item> <!-- SanDisk Ultra 3D 1TB -->
+        <item>4.5</item> <!-- Toshiba P300 2TB -->
+
+        <item>4.9</item> <!-- Corsair RM750x -->
+        <item>4.8</item> <!-- SEA Sonic FOCUS Plus 750W -->
+        <item>4.7</item> <!-- EVGA SuperNOVA 650 G5 -->
+        <item>4.6</item> <!-- FSP Hydro G 850W -->
+        <item>4.5</item> <!-- Cooler Master MWE Gold 650W -->
+        <item>4.4</item> <!-- Seasonic S12III 500W -->
+        <item>4.3</item> <!-- Rosewill Capstone 750W -->
+        <item>4.4</item> <!-- Antec Earthwatts Gold 650W -->
+        <item>4.9</item> <!-- Corsair HX1000i -->
+        <item>4.2</item> <!-- Leviathan 700W -->
+
+        <item>4</item> <!-- CORSAIR iCUE 5000T RGB TG fekete -->
+        <item>3.5</item> <!-- Cooler Master MasterCase H500M -->
+        <item>4.6</item> <!-- Corsair iCUE 220T -->
+        <item>4.7</item> <!-- Phanteks P400A -->
+        <item>4.3</item> <!-- Cooler Master MasterBox Q300L -->
+        <item>4.5</item> <!-- Antec DF500 -->
+        <item>4.4</item> <!-- Aerocool Cylon -->
+        <item>4.6</item> <!-- Corsair Carbide 275R -->
+        <item>4.9</item> <!-- Lian Li PC-011 Dynamic -->
+        <item>4.8</item> <!-- Thermaltake Core V71 -->
+
+        <item>4.9</item> <!-- Noctua NH-D15 -->
+        <item>4.8</item> <!-- Corsair iCUE H150i Elite Capellix -->
+        <item>4.7</item> <!-- Liquid Freezer II 360 -->
+        <item>4.5</item> <!-- MSI MAG CoreLiquid 240R -->
+        <item>4.4</item> <!-- Air Cooler Hyper 212 EVO -->
+        <item>4.6</item> <!-- Cooler Master Hyper 212 -->
+        <item>4.7</item> <!-- Corsair H100i PRO -->
+        <item>4.8</item> <!-- Noctua NH-U12A -->
+        <item>4.7</item> <!-- Arctic Liquid Freezer II 280 -->
+        <item>4.2</item> <!-- Zalman CNPS10X Performa -->
+
+        <item>4.7</item> <!-- Epson EcoTank L3150 -->
+        <item>4.2</item> <!-- Canon PIXMA TS3450 -->
+        <item>4.5</item> <!-- HP ScanJet Pro 2500 -->
+        <item>4.1</item> <!-- HP DeskJet 2720 -->
+        <item>4.4</item> <!-- Canon CanoScan LiDE 400 -->
+        <item>4.6</item> <!-- Brother HL-L2350DW -->
+        <item>4.7</item> <!-- Epson EcoTank ET-2720 -->
+        <item>4.3</item> <!-- Canon PIXMA G3400 -->
+        <item>4.6</item> <!-- Epson Perfection V39 -->
+        <item>4.5</item> <!-- Brother MFC-J995DW -->
+
+        <item>4.8</item> <!-- Razer Huntsman Elite -->
+        <item>4.7</item> <!-- Logitech MX Master 3 -->
+        <item>4.6</item> <!-- Corsair K95 RGB Platinum -->
+        <item>4.5</item> <!-- Razer DeathAdder Elite -->
+        <item>4.7</item> <!-- steelseries Apex Pro -->
+        <item>4.6</item> <!-- Logitech G502 Hero -->
+        <item>4.4</item> <!-- HyperX Alloy FPS Pro -->
+        <item>4.5</item> <!-- SteelSeries Rival 600 -->
+        <item>4.0</item> <!-- ANTEC K3 -->
+        <item>4.6</item> <!-- SteelSeries Sensei Ten -->
+
+        <item>4.8</item> <!-- Bose SoundLink Revolve+ -->
+        <item>4.3</item> <!-- Logitech Z313 -->
+        <item>4.7</item> <!-- JBL Flip 5 -->
+        <item>4.4</item> <!-- Boat Stone 1000 -->
+        <item>4.6</item> <!-- Anker Soundcore 2 -->
+        <item>4.5</item> <!-- Sony SRS-XB33 -->
+        <item>4.4</item> <!-- Philips BT6900 -->
+        <item>4.7</item> <!-- Klipsch R-51M -->
+        <item>4.6</item> <!-- Marshall Stanmore II -->
+        <item>4.9</item> <!-- KEF LS50 Wireless -->
+
+        <item>4.7</item> <!-- AmazonBasics HDMI 2.0 -->
+        <item>4.5</item> <!-- UGREEN USB-C -->
+        <item>4.8</item> <!-- ANKER PowerLine Lightning -->
+        <item>4.2</item> <!-- StarTech VGA -->
+        <item>4.6</item> <!-- AmazonBasics DisplayPort -->
+        <item>4.8</item> <!-- Anker PowerLine+ USB-C -->
+        <item>4.7</item> <!-- Corsair Type-C -->
+        <item>4.6</item> <!-- Belkin 3.5mm Aux -->
+        <item>4.5</item> <!-- AmazonBasics Ethernet -->
+        <item>4.4</item> <!-- Logitech Micro USB -->
+    </array>
+</resources>
